@@ -21,9 +21,9 @@ require (
 	github.com/robfig/cron v0.0.0-20170526150127-736158dc09e1
 	github.com/robfig/cron/v3 v3.0.1
 	github.com/shurcooL/githubv4 v0.0.0-20210725200734-83ba7b4c9228
-	github.com/xanzy/go-gitlab v0.54.3
+	github.com/xanzy/go-gitlab v0.68.0
 	github.com/yaegashi/msgraph.go v0.1.4
-	golang.org/x/oauth2 v0.0.0-20210113205817-d3ed898aa8a3
+	golang.org/x/oauth2 v0.0.0-20220411215720-9780585627b5
 	gopkg.in/ldap.v2 v2.5.1
 	k8s.io/api v0.20.2
 	k8s.io/apimachinery v0.20.2
