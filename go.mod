@@ -3,6 +3,7 @@ module github.com/redhat-cop/group-sync-operator
 go 1.16
 
 require (
+	cloud.google.com/go/compute/metadata v0.2.3 // indirect
 	github.com/Nerzal/gocloak/v5 v5.5.0
 	github.com/go-logr/logr v0.4.0
 	github.com/go-openapi/spec v0.19.3
@@ -21,9 +22,9 @@ require (
 	github.com/robfig/cron v0.0.0-20170526150127-736158dc09e1
 	github.com/robfig/cron/v3 v3.0.1
 	github.com/shurcooL/githubv4 v0.0.0-20210725200734-83ba7b4c9228
-	github.com/xanzy/go-gitlab v0.54.3
+	github.com/xanzy/go-gitlab v0.79.1
 	github.com/yaegashi/msgraph.go v0.1.4
-	golang.org/x/oauth2 v0.0.0-20210113205817-d3ed898aa8a3
+	golang.org/x/oauth2 v0.3.0
 	gopkg.in/ldap.v2 v2.5.1
 	k8s.io/api v0.20.2
 	k8s.io/apimachinery v0.20.2
